@@ -2,7 +2,7 @@
 
 var telegram=require('telegram-node-bot');
 
-const tg=new telegram.Telegram('#########',{
+const tg=new telegram.Telegram('testtoken',{
 
 workers:1
 });
