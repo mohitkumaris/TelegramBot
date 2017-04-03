@@ -2,7 +2,9 @@
 
 var telegram=require('telegram-node-bot');
 
-const tg=new telegram.Telegram('testtoken',{
+var token=require('./token');
+
+const tg=new telegram.Telegram(token,{
 
 workers:1
 });
