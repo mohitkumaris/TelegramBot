@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mohitkumaris/SkypeBot.git"
+    "url": "git+https://github.com/mohitkumaris/Telegram.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mohitkumaris/SkypeBot/issues"
+    "url": "https://github.com/mohitkumaris/TelegramBot/issues"
   },
-  "homepage": "https://github.com/mohitkumaris/SkypeBot#readme",
+  "homepage": "https://github.com/mohitkumaris/TelegramBot#readme",
   "dependencies": {
     "telegram-node-bot": "^4.0.5"
   }
