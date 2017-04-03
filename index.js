@@ -2,7 +2,7 @@
 
 var telegram=require('telegram-node-bot');
 
-const tg=new telegram.Telegram('345183813:AAGwofUgYiKn2OqeTtqapgj_D8koa3uztg8',{
+const tg=new telegram.Telegram('#########',{
 
 workers:1
 });
