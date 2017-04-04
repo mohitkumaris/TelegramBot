@@ -10,7 +10,13 @@ workers:1
 });
 
 const pingController=require('./controllers/pingController')
-, otherwiseController=require('./controllers/otherwiseController');
+, otherwiseController=require('./controllers/otherwiseController'),
+todoController=require('./controllers/todoController');
 
-tg.router.when(new telegram.TextCommand('/ping','pingCommand'),new pingController())
+//new telegram.TextCommand('/ping','pingCommand'),new pingController(),
+
+const todoCtrl=new todoController();
+
+tg.router.when(new telegram.TextCommand('/add','addCommand'),todoCtrl)
+.when(new telegram.TextCommand('/get','getCommand'),todoCtrl)
 .otherwise(new otherwiseController())
